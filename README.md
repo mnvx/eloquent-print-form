@@ -109,7 +109,7 @@ class ContractAppendix extends Model
 Example of Laravel's controller action for printing contract.
 
 ```php
-public function printInternet(FormRequest $request)
+public function downloadPrintForm(FormRequest $request)
 {
     $id = $request->get('id');
     $entity = Contract::find($id);
