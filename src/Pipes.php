@@ -6,12 +6,12 @@ use Carbon\Carbon;
 
 class Pipes
 {
-    public string $dateFormat;
-    public string $datetimeFormat;
-    public string $placeholder;
-    public int $decimals;
-    public string $decPoint;
-    public string $thousandsSep;
+    public $dateFormat;
+    public $datetimeFormat;
+    public $placeholder;
+    public $decimals;
+    public $decPoint;
+    public $thousandsSep;
 
     public function __construct(
         string $placeholder = '____________________',

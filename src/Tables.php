@@ -9,7 +9,7 @@ class Tables
     /**
      * @var Table[] List of tables where keys are prefixes
      */
-    protected array $tables;
+    protected $tables;
 
     public function __construct()
     {

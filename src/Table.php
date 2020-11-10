@@ -9,7 +9,7 @@ class Table
     /**
      * @var string e.g. 'placements.', 'project.placements.'
      */
-    protected string $tablePrefix;
+    protected $tablePrefix;
 
     /**
      * @var Model[] Entities of table

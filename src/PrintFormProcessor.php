@@ -7,9 +7,9 @@ use PhpOffice\PhpWord\TemplateProcessor;
 
 class PrintFormProcessor
 {
-    protected string $tmpPrefix;
+    protected $tmpPrefix;
 
-    protected Pipes $pipes;
+    protected $pipes;
 
     public function __construct(Pipes $pipes = null, string $tmpPrefix = 'pfp_')
     {
