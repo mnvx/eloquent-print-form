@@ -1,0 +1,25 @@
+{
+    "name": "mnvx/eloquent-print-form",
+    "description": "Print form processor for Eloquent",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["print form", "docx", "document", "word", "invoice", "contract"],
+    "homepage": "https://github.com/mnvx/eloquent-print-form",
+    "autoload": {
+      "psr-4": {
+        "Mnvx\\EloquentPrintForm\\": "src/"
+      }
+    },
+    "authors": [
+        {
+            "name": "Nick",
+            "email": "mnvx@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "illuminate/database": "^8.13",
+        "nesbot/carbon": "^2.41",
+        "phpoffice/phpword": "^0.17.0"
+    }
+}
