@@ -127,16 +127,35 @@ Example of docx template
 
 ---
 
-Contract number: ${number|placeholder}
-Contract date: ${start_at|date|placeholder}
-Customer: ${customer.name}
-Customer category: ${customer.category.name}
+Contract number: ${number|placeholder}  
+Contract date: ${start_at|date|placeholder}    
+Customer: ${customer.name}  
+Customer category: ${customer.category.name|placeholder}
 
 Appendixes:
 
 | Row number                | Appendix number      | Appendix tax      |
 | ------------------------- | -------------------- | -----------------:|
 | ${appendixes.#row_number} | ${appendixes.number} | ${appendixes.tax} |
+
+---
+
+Example of generated document
+
+---
+
+Contract number: F-123  
+Contract date: 12.04.2012    
+Customer: IBM  
+Customer category: ____________________ 
+
+Appendixes:
+
+| Row number                | Appendix number      | Appendix tax      |
+| ------------------------- | -------------------- | -----------------:|
+| 1                         | A-1                  | 1234              |
+| 2                         | A-1.1                | 0                 |
+| 3                         | B-1                  | 10                |
 
 ---
 
