@@ -24,7 +24,7 @@ class Table
      *     'placements.issue.date' => 'issue.date',
      * ]
      */
-    protected array $variables;
+    protected $variables;
 
     /**
      * Table constructor.
